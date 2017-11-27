@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.a2018abutler.fitnesstracker.MainActivity">
+    <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="380dp"
+        android:layout_height="516dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        tools:layout_editor_absoluteY="-5dp"
+        tools:layout_editor_absoluteX="2dp"
+        android:columnCount="2"
+        tools:ignore="MissingConstraints">
+
+    <ImageButton
+        android:id="@+id/UpperBody"
+        android:layout_width="180dp"
+        android:layout_height="369dp"
+        android:src="@mipmap/ic_launcher"
+        android:scaleType="fitXY"
+        android:layout_gravity="left"
+        />
+
+    <ImageButton
+        android:id="@+id/LowerBody"
+        android:layout_width="180dp"
+        android:layout_height="369dp"
+        android:src="@mipmap/ic_launcher"
+        android:scaleType="fitXY"
+        android:layout_gravity="right"/>
+    </GridLayout>
+
+</android.support.constraint.ConstraintLayout>
