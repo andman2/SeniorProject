@@ -23,6 +23,14 @@ public class MainActivity extends AppCompatActivity {
             }
 
         });
+        upper.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View arg0) {
+                switchActivity(1);
+            }
+
+        });
     }
     public void switchActivity(int x){//this method allows usd to switch activities (pass 0 for lower body and anything else for upper)
         Intent intent;
