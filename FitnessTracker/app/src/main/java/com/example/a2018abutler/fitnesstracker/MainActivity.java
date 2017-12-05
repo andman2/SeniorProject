@@ -37,12 +37,12 @@ public class MainActivity extends AppCompatActivity {
 
         });
     }
-    @Override
+    /*@Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.game_menu, menu);
         return true;
-    }
+    }*/
     public void switchActivity(int x){//this method allows usd to switch activities (pass 0 for lower body and anything else for upper)
         Intent intent;
         if (x == 0){
