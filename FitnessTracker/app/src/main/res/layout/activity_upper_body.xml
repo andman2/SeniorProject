@@ -36,7 +36,7 @@
             />
 
         <ImageButton
-            android:id="@+id/Exercise2"
+            android:id="@+id/latpulldown"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight=".5"
@@ -57,7 +57,7 @@
             tools:ignore="MissingConstraints">
 
             <ImageButton
-                android:id="@+id/Exercise3"
+                android:id="@+id/shoulder_press"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight=".5"
@@ -67,7 +67,7 @@
                 />
 
             <ImageButton
-                android:id="@+id/Exercise4"
+                android:id="@+id/Pectoral-flys"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight=".5"
@@ -87,7 +87,7 @@
             tools:ignore="MissingConstraints">
 
             <ImageButton
-                android:id="@+id/Exercise5"
+                android:id="@+id/Bent_over_rows"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight=".5"
@@ -97,7 +97,7 @@
                 />
 
             <ImageButton
-                android:id="@+id/Exercise6"
+                android:id="@+id/Bicep-curls"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight=".5"

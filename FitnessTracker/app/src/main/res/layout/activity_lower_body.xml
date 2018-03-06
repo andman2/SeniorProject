@@ -26,7 +26,7 @@
             android:orientation="horizontal"
             tools:ignore="MissingConstraints">
             <ImageButton
-                android:id="@+id/Bench"
+                android:id="@+id/Squat"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight=".5"
@@ -36,7 +36,7 @@
                 />
 
             <ImageButton
-                android:id="@+id/Exercise2"
+                android:id="@+id/Deadlift"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight=".5"
@@ -57,7 +57,7 @@
             tools:ignore="MissingConstraints">
 
             <ImageButton
-                android:id="@+id/Exercise3"
+                android:id="@+id/power_clean"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight=".5"
@@ -67,7 +67,7 @@
                 />
 
             <ImageButton
-                android:id="@+id/Exercise4"
+                android:id="@+id/calf_raises"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight=".5"
@@ -87,7 +87,7 @@
             tools:ignore="MissingConstraints">
 
             <ImageButton
-                android:id="@+id/Exercise5"
+                android:id="@+id/weighted_walking_lunge"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight=".5"
@@ -97,7 +97,7 @@
                 />
 
             <ImageButton
-                android:id="@+id/Exercise6"
+                android:id="@+id/Leg_press"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight=".5"

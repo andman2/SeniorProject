@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        ImageButton upper = (ImageButton) findViewById(R.id.UpperBody);
+        ImageButton upper = (ImageButton) findViewById(R.id.UpperBody);//image button to go to lower body workout activity
         ImageButton lower = (ImageButton) findViewById(R.id.LowerBody);//image button to go to lower body workout activity
         Toolbar myToolbar = (Toolbar) findViewById(R.id.my_toolbar);
         setSupportActionBar(myToolbar);
@@ -40,12 +40,12 @@ public class MainActivity extends AppCompatActivity {
         });
     }
     @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
+    public boolean onCreateOptionsMenu(Menu menu) {//trying to make a menu
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.menu1, menu);
         return true;
     }
-    public void switchActivity(int x){//this method allows usd to switch activities (pass 0 for lower body and anything else for upper)
+    public void switchActivity(int x){//this method allows us to switch activities (pass 0 for lower body and anything else for upper)
         Intent intent;
         if (x == 0){
             intent = new Intent(this, LowerBody.class);
