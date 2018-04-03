@@ -12,5 +12,9 @@ public class DisplayLift extends AppCompatActivity {
         setContentView(R.layout.activity_display_lift);
         Intent mIntent = getIntent();
         int liftnum = mIntent.getIntExtra("liftnum", 0);
+        setup(liftnum);
+    }
+    public void setup(int x){
+
     }
 }

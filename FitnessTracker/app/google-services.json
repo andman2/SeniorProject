@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "100184078435",
+    "firebase_url": "https://fitness-tracker-c1e92.firebaseio.com",
+    "project_id": "fitness-tracker-c1e92",
+    "storage_bucket": "fitness-tracker-c1e92.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:100184078435:android:2040e859ff818356",
+        "android_client_info": {
+          "package_name": "com.example.a2018abutler.fitnesstracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "100184078435-4hv70ie8rd6gn5u8u023i0qvo4qq1haf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.a2018abutler.fitnesstracker",
+            "certificate_hash": "e8f51f4d4b6b928f110e682072d82efc7ab7dd81"
+          }
+        },
+        {
+          "client_id": "100184078435-ftr2ku8m64sjsdr24ukurj81332tu9mr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgogy50RRYqw1rF5US99zuGNM-w0f5fiE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "100184078435-ftr2ku8m64sjsdr24ukurj81332tu9mr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
