@@ -67,7 +67,7 @@
                 />
 
             <ImageButton
-                android:id="@+id/Pectoral-flys"
+                android:id="@+id/Pectoral_flys"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight=".5"
@@ -97,7 +97,7 @@
                 />
 
             <ImageButton
-                android:id="@+id/Bicep-curls"
+                android:id="@+id/Bicep_curls"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight=".5"

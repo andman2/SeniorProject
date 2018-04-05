@@ -1,11 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
     <item
 
-        android:id="@+id/action_cart"
-        android:icon="@drawable/ic_add"
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home_black_24dp"
         android:orderInCategory="100"
-        android:title="Add"
-        android:tooltipText="Click to navigate to the lift adding screen"
-        android:showAsAction="always"/>
+        android:title="Home"
+        android:tooltipText="Click to navigate to the Home screen"
+        app:showAsAction="ifRoom|withText"/>
+    <item
+
+        android:id="@+id/add"
+        android:icon="@drawable/ic_add"
+        android:orderInCategory="200"
+        android:title="Track"
+        android:tooltipText="Click to navigate to the Tracking screen"
+        app:showAsAction="ifRoom|withText"/>
+    <item
+
+        android:id="@+id/helpss"
+        android:icon="@drawable/ic_help_black_24dp"
+        android:orderInCategory="300"
+        android:title="Help"
+        android:tooltipText="Click to navigate to the help screen"
+        app:showAsAction="ifRoom|withText"
+        />
+
 </menu>
