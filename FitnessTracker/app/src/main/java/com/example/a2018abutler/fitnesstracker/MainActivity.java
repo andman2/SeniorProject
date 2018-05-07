@@ -48,9 +48,11 @@ public class MainActivity extends AppCompatActivity {
     }
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+        Intent intent;
         switch (item.getItemId()) {
             case R.id.add:
-                // User chose the "add" item, show the app settings UI...
+                intent = new Intent(this, inputActivity.class);
+                startActivity(intent);
                 return true;
 
             case R.id.home:
@@ -61,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
             default:
                 // If we got here, the user's action was not recognized.
                 // Invoke the superclass to handle it.
-                return super.onOptionsItemSelected(item);
+                return false;//super.onOptionsItemSelected(item);
 
         }
     }

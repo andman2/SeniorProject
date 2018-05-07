@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.a2018abutler.fitnesstracker.inputActivity">
+
+    <RelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="551dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="Lifting Input" />
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp">
+
+            <TextView
+                android:id="@+id/lift"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:paddingRight="8dp"
+                android:text="Pick a lift"
+
+                />
+
+            <Spinner
+                android:id="@+id/liftSpinner"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@id/lift" />
+
+            <TextView
+                android:id="@+id/reps"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@id/lift"
+                android:layout_marginTop="16dp"
+                android:paddingTop="20dp"
+                android:text="How many repitions?" />
+
+            <EditText
+                android:id="@+id/repin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lift"
+                android:layout_marginTop="16dp"
+                android:layout_toRightOf="@id/reps"
+                android:inputType="number"
+                android:tooltipText="# of reps" />
+
+            <TextView
+                android:id="@+id/weight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@id/reps"
+                android:layout_marginTop="16dp"
+                android:paddingTop="20dp"
+                android:text="How much weight?" />
+
+            <EditText
+                android:id="@+id/weightin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/reps"
+                android:layout_marginTop="16dp"
+                android:layout_toRightOf="@id/weight"
+                android:inputType="number"
+                android:tooltipText="weight in lbs" />
+        </RelativeLayout>
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

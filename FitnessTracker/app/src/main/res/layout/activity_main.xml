@@ -15,14 +15,14 @@
         android:orientation="vertical"
         tools:ignore="MissingConstraints">
 
-    <android.support.v7.widget.Toolbar
+    <include
+        layout="@layout/cooltool"
         android:id="@+id/my_toolbar"
         android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize"
-        android:background="?attr/colorPrimary"
-        android:elevation="4dp"
-        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
-        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+        android:layout_height="wrap_content"
+        />
+
+
 
     <ImageButton
         android:id="@+id/UpperBody"

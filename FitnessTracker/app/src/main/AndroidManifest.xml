@@ -42,6 +42,7 @@
                 android:value=".MainActivity" />
         </activity>
         <activity android:name=".DisplayLift" />
+        <activity android:name=".inputActivity"></activity>
     </application>
 
 </manifest>
