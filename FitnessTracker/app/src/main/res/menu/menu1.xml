@@ -5,7 +5,6 @@
 
         android:id="@+id/home"
         android:icon="@drawable/ic_home_black_24dp"
-        android:orderInCategory="100"
         android:title="Home"
         android:tooltipText="Click to navigate to the Home screen"
         app:showAsAction="ifRoom|withText"/>
@@ -13,7 +12,6 @@
 
         android:id="@+id/add"
         android:icon="@drawable/ic_add"
-        android:orderInCategory="200"
         android:title="Track"
         android:tooltipText="Click to navigate to the Tracking screen"
         app:showAsAction="ifRoom|withText"/>
@@ -21,7 +19,6 @@
 
         android:id="@+id/helpss"
         android:icon="@drawable/ic_help_black_24dp"
-        android:orderInCategory="300"
         android:title="Help"
         android:tooltipText="Click to navigate to the help screen"
         app:showAsAction="ifRoom|withText"

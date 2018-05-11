@@ -14,4 +14,18 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
+    <string-array name="lifts_array">
+        <item>Bench Press</item>
+        <item>Lat Pulldown</item>
+        <item>Shoulder Press</item>
+        <item>Dumbell Fly</item>
+        <item>Bentover Row</item>
+        <item>Bicep Curl</item>
+        <item>Squat</item>
+        <item>Deadlift</item>
+        <item>Calf Raises</item>
+        <item>Power Clean</item>
+        <item>Weighted Lunge</item>
+        <item>Leg Press</item>
+    </string-array>
 </resources>

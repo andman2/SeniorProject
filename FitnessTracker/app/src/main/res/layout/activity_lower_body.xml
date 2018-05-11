@@ -30,7 +30,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight=".5"
-                android:src="@mipmap/ic_launcher"
+                android:src="@mipmap/squat_pic"
                 android:scaleType="fitXY"
 
                 />
@@ -40,7 +40,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight=".5"
-                android:src="@mipmap/ic_launcher"
+                android:src="@mipmap/dead_pic"
                 android:scaleType="fitXY"
                 />
 
@@ -61,7 +61,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight=".5"
-                android:src="@mipmap/ic_launcher"
+                android:src="@mipmap/clean_pic"
                 android:scaleType="fitXY"
 
                 />
@@ -71,7 +71,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight=".5"
-                android:src="@mipmap/ic_launcher"
+                android:src="@mipmap/calf_pic"
                 android:scaleType="fitXY"
                 />
         </LinearLayout>
@@ -91,7 +91,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight=".5"
-                android:src="@mipmap/ic_launcher"
+                android:src="@mipmap/lunge_pic"
                 android:scaleType="fitXY"
 
                 />
@@ -101,7 +101,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight=".5"
-                android:src="@mipmap/ic_launcher"
+                android:src="@mipmap/leg_pic"
                 android:scaleType="fitXY"
                 />
 

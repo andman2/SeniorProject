@@ -23,6 +23,12 @@ public class MainActivity extends AppCompatActivity {
         Toolbar myToolbar = (Toolbar) findViewById(R.id.my_toolbar);
         setSupportActionBar(myToolbar);
 
+        if (myToolbar != null){
+            setSupportActionBar(myToolbar);
+            myToolbar.setTitle("bob");
+
+        }
+        myToolbar.inflateMenu(R.menu.menu1);
         lower.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -42,8 +48,7 @@ public class MainActivity extends AppCompatActivity {
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {//trying to make a menu
-        MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.menu1, menu);
+        getMenuInflater().inflate(R.menu.menu1, menu);
         return true;
     }
     @Override

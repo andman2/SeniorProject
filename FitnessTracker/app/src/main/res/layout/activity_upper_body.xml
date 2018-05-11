@@ -30,8 +30,8 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight=".5"
-            android:src="@mipmap/ic_launcher"
-            android:scaleType="fitXY"
+            android:src="@mipmap/bench_pic"
+            android:scaleType="fitCenter"
 
             />
 
@@ -40,7 +40,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight=".5"
-            android:src="@mipmap/ic_launcher"
+            android:src="@mipmap/lat_pic"
             android:scaleType="fitXY"
             />
 
@@ -61,7 +61,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight=".5"
-                android:src="@mipmap/ic_launcher"
+                android:src="@mipmap/should_pic"
                 android:scaleType="fitXY"
 
                 />
@@ -71,7 +71,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight=".5"
-                android:src="@mipmap/ic_launcher"
+                android:src="@mipmap/fly_pic"
                 android:scaleType="fitXY"
                 />
         </LinearLayout>
@@ -91,7 +91,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight=".5"
-                android:src="@mipmap/ic_launcher"
+                android:src="@mipmap/row_pic"
                 android:scaleType="fitXY"
 
                 />
@@ -101,7 +101,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight=".5"
-                android:src="@mipmap/ic_launcher"
+                android:src="@mipmap/curl_pic"
                 android:scaleType="fitXY"
                 />
 
