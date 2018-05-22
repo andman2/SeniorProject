@@ -29,7 +29,8 @@
             android:paddingLeft="16dp"
             android:paddingRight="16dp"
             tools:layout_editor_absoluteX="8dp"
-            tools:layout_editor_absoluteY="8dp">
+            tools:layout_editor_absoluteY="8dp"
+            android:id="@+id/lay">
 
             <TextView
                 android:id="@+id/lift"
@@ -88,5 +89,13 @@
                 android:inputType="number"
                 android:tooltipText="weight in lbs" />
         </RelativeLayout>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ENTER"
+            android:layout_below="@id/lay"
+            android:id="@+id/ent"
+            android:layout_centerHorizontal="true"
+            />
     </RelativeLayout>
 </android.support.constraint.ConstraintLayout>
