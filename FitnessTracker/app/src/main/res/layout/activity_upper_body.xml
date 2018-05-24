@@ -14,6 +14,12 @@
         tools:layout_editor_absoluteX="8dp"
         android:orientation="vertical"
         tools:ignore="MissingConstraints">
+        <include
+            layout="@layout/cooltool"
+            android:id="@+id/my_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"

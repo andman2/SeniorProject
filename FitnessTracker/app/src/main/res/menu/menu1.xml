@@ -15,13 +15,4 @@
         android:title="Track"
         android:tooltipText="Click to navigate to the Tracking screen"
         app:showAsAction="ifRoom|withText"/>
-    <item
-
-        android:id="@+id/helpss"
-        android:icon="@drawable/ic_help_black_24dp"
-        android:title="Help"
-        android:tooltipText="Click to navigate to the help screen"
-        app:showAsAction="ifRoom|withText"
-        />
-
 </menu>

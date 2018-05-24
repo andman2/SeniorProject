@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
 
         if (myToolbar != null){
             setSupportActionBar(myToolbar);
-            myToolbar.setTitle("bob");
+            myToolbar.setTitle("Gain Train");
 
         }
         myToolbar.inflateMenu(R.menu.menu1);
@@ -61,8 +61,8 @@ public class MainActivity extends AppCompatActivity {
                 return true;
 
             case R.id.home:
-                // User chose the "Favorite" action, mark the current item
-                // as a favorite...
+                intent = new Intent(this, MainActivity.class);
+                startActivity(intent);
                 return true;
 
             default:

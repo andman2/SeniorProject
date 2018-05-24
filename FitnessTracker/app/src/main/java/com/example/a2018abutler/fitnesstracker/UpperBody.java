@@ -3,6 +3,9 @@ package com.example.a2018abutler.fitnesstracker;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageButton;
 
@@ -66,6 +69,41 @@ public class UpperBody extends AppCompatActivity {
             }
 
         });
+        Toolbar myToolbar = (Toolbar) findViewById(R.id.my_toolbar);
+        setSupportActionBar(myToolbar);
+
+        if (myToolbar != null){
+            setSupportActionBar(myToolbar);
+            myToolbar.setTitle("Upper Body");
+
+        }
+        myToolbar.inflateMenu(R.menu.menu1);
+    }
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {//trying to make a menu
+        getMenuInflater().inflate(R.menu.menu1, menu);
+        return true;
+    }
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        Intent intent;
+        switch (item.getItemId()) {
+            case R.id.add:
+                intent = new Intent(this, inputActivity.class);
+                startActivity(intent);
+                return true;
+
+            case R.id.home:
+                intent = new Intent(this, MainActivity.class);
+                startActivity(intent);
+                return true;
+
+            default:
+                // If we got here, the user's action was not recognized.
+                // Invoke the superclass to handle it.
+                return false;//super.onOptionsItemSelected(item);
+
+        }
     }
     public void switchActivity(int x){//this method allows us to switch activities (pass 0 for lower body and anything else for upper)
         Intent intent;
