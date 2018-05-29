@@ -4,17 +4,26 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
 
+import com.jjoe64.graphview.GraphView;
+import com.jjoe64.graphview.series.DataPoint;
+
+import java.util.ArrayList;
+import java.util.List;
+
 public class DisplayLift extends AppCompatActivity {
     public Toolbar myToolbar;
+    public GraphView graph;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_display_lift);
         Intent mIntent = getIntent();
+        graph = (GraphView) findViewById(R.id.graph);
         int liftnum = mIntent.getIntExtra("liftnum", 0);
         myToolbar = (Toolbar) findViewById(R.id.my_toolbar);
         setSupportActionBar(myToolbar);
@@ -53,9 +62,17 @@ public class DisplayLift extends AppCompatActivity {
         }
     }
     public void setup(int x){
+        String ex = getResources().getStringArray(R.array.lifts_array)[x];
+        List<DataPoint> temp = new ArrayList<DataPoint>();
+
+        DataPoint[] points = new DataPoint[temp.size()];
+        points = temp.toArray(points);
+
         if(x==0){
             myToolbar.setTitle("Bench");
-            setTitle("bench");
+            if(isF(ex)){
+                
+            }
         }
         if(x==1){
             myToolbar.setTitle("Lat Pull Down");
@@ -91,5 +108,14 @@ public class DisplayLift extends AppCompatActivity {
             myToolbar.setTitle("Leg Press");
         }
 
+    }
+    public boolean isF(String ex){
+        String[] files = getApplicationContext().fileList();
+        for (int x = 0; x < files.length; x++){
+            if(files[x].equals(ex)){
+                return true;
+            }
+        }
+        return false;
     }
 }
